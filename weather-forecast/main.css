@@ -4,20 +4,21 @@
   box-sizing: border-box;
 }
 *{transition: all .1s ease-in;}
+
 body{
   background: #5085D1;
   border: 10px solid #4471B0;
-  text-align: center;
-  height: 100vh;
-  padding-top: 10vh;
+  max-height: 100vh;
+  padding: 5% 0 10% 0;
+  box-sizing: border-box;
 }
 .wrapper{
     box-sizing: border-box;
     max-width: 800px;
     min-width: 400px;
     margin: auto;
-    text-align: left;
-    max-height: 80%;
+    text-align: left; 
+    max-height: 85%;
 }
 .weather__title{
   color: white;
