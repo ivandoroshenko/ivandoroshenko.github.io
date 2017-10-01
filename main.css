@@ -10,7 +10,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background: #F1F1F1;
-	font-style: Arial, sans-serif;
+	font-style: sans-serif, Arial;
 	
 }
 .header{
@@ -24,7 +24,6 @@ body{
 	font-weight: 700;
 	width:  100%;
 	padding: 0 80px;
-	/* border: 1px solid black; */
 	border:  none;
 	background:  transparent;
 	font-size:  6em;
@@ -49,29 +48,27 @@ body{
 .input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
 .submit-button{
-position: absolute;
-height: 80px;
-width: 80px;
-right:  0;
-top:  20%;
-color: transparent;
-background:  transparent;
-background-size: 100%;
-border:  none;
-transform-origin: 100% 50%;
-/* border: 1px solid black; */
-background-image: url("magnifier.svg");
-transition: transform 0.3s;
-background-repeat: no-repeat;
-cursor: pointer;	
-overflow: hidden;
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	right:  0;
+	top:  20%;
+	color: transparent;
+	background:  transparent;
+	background-size: 100%;
+	border:  none;
+	transform-origin: 100% 50%;
+	background-image: url("magnifier.svg");
+	transition: transform 0.3s;
+	background-repeat: no-repeat;
+	cursor: pointer;	
+	overflow: hidden;
 
 }
 .wrapper{
 	position: relative;
 	width: 80%;
 	margin: 40px auto 0;
-	/* border:  1px solid red; */
 	padding: 0;
 	font-size: 0;
 }
@@ -108,10 +105,7 @@ overflow: hidden;
 .search__list{
 	padding: 0;
 	margin:  0;
-	/* border: 1px solid black; */
 	height: auto;
-
-	
 }
 .search__item{
 	box-sizing: border-box;
@@ -122,7 +116,6 @@ overflow: hidden;
 	max-height: 100%;
 	position: relative;
 	background: #EBEAED;
-
 }
 .search__item:first-child{
 	margin-top: 0;
