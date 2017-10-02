@@ -7,9 +7,8 @@ transition: all .1s ease-in;
 
 body{
 background-color: black;
-// padding: 0 100px;
+}
 
-		}
 .wrapper{
 border: 20px solid white;
 background-color: rgba(53, 63, 69, 1.0);
