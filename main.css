@@ -28,7 +28,7 @@ body{
 	padding: 0;
 	position: absolute;
 	width: 100%;
-	
+
 }
 
 .search__input {
@@ -47,15 +47,15 @@ body{
 	width:  30%;
 	font-size: 10px;
 	display: inline-block;
-	
+
 }
 
 li{
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 .icon {
-	display: inline-block;	
+	display: inline-block;
 }
 
 aside{
