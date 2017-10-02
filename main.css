@@ -9,9 +9,10 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	padding-top: 20px;
 	background: #F1F1F1;
 	font-family: Arial, sans-serif;
-	
+
 }
 .header{
 	margin: 0 auto;
@@ -49,10 +50,7 @@ body{
 
 .submit-button{
 	position: absolute;
-<<<<<<< HEAD
 	width: 100%;
-
-=======
 	height: 80px;
 	width: 80px;
 	right:  0;
@@ -65,7 +63,7 @@ body{
 	background-image: url("magnifier.svg");
 	transition: transform 0.3s;
 	background-repeat: no-repeat;
-	cursor: pointer;	
+	cursor: pointer;
 	overflow: hidden;
 
 }
@@ -75,7 +73,6 @@ body{
 	margin: 40px auto 0;
 	padding: 0;
 	font-size: 0;
->>>>>>> 86c144a1536dd855f4d75831dc3afb48d57d14f9
 }
 
 .search__column{
@@ -90,33 +87,21 @@ body{
 
 .search__title{
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 18px;
 	letter-spacing: 1px;
 
 }
+
+.search__column{
+	width:  30%;
+	font-size: 10px;
+	display: inline-block;
+}
+
 	.search__column:nth-child(2) {
 	margin:  0 5%;
 	}
 
-.search__column{
-<<<<<<< HEAD
-	width:  30%;
-	font-size: 10px;
-	display: inline-block;
-
-}
-
-li{
-	list-style-type: none;
-}
-
-.icon {
-	display: inline-block;
-=======
-	padding: 0;
-	margin: 0;
-	height: 100%;
-}
 .search__column:first-child .icon{
 	border-radius: 50%;
 	margin-left: 2px;
@@ -129,12 +114,13 @@ li{
 .search__item{
 	box-sizing: border-box;
 	vertical-align: middle;
-	list-style-type: none; 
+	list-style-type: none;
 	font-size: 0;
 	margin: 5px 0;
 	max-height: 100%;
 	position: relative;
 	background: #EBEAED;
+	list-style-type: none;
 }
 .search__item:first-child{
 	margin-top: 0;
@@ -143,12 +129,12 @@ li{
 	margin-bottom: 0;
 }
 .icon, .name {
-	display: inline-block;	
+	display: inline-block;
 	font-size:  14px;
 	vertical-align: middle;
 	position: relative;
-	margin-right: 10px; 
->>>>>>> 86c144a1536dd855f4d75831dc3afb48d57d14f9
+	margin-right: 10px;
+
 }
 .icon {
 	height: auto;
@@ -162,17 +148,13 @@ li{
 	margin: 0;
 	text-transform: capitalize;
 }
-<<<<<<< HEAD
-.icon, h3 {
-	display: inline-block;
-	font-size: 20px;
-}
-=======
-.search__item, .search__item a{
+.search__item {
 border-radius: 5px;
 }
+
 .search__item a {
 	display: block;
+	border-radius: 5px;
 	height: 100%;
 	padding: 12px;
 	background: #EBEAED;
@@ -186,4 +168,4 @@ border-radius: 5px;
 .submit-button:hover{
 	transform: scale(1.5);
 }
->>>>>>> 86c144a1536dd855f4d75831dc3afb48d57d14f9
+

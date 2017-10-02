@@ -4,19 +4,19 @@ font-family: sans-serif;
 color: white;
 transition: all .1s ease-in;
 }
-			
+
 body{
 background-color: black;
 padding: 0 100px;
 
-		}	
+		}
 .wrapper{
 border: 20px solid white;
 background-color: rgba(53, 63, 69, 1.0);
 height: 95%;
 width: auto;
-margin: auto;			
-} 
+margin: auto;
+}
 
 .dinner__header, .dinner__footer{
 background-color: rgba(74, 79, 86, 1.0);
@@ -30,7 +30,7 @@ margin-top: 30px;
 margin-bottom: 90px;
 }
 
-.dinner__header__title, .dinner__footer__title{
+.dinner__menu__title, .dinner__footer__title{
 color: rgba(235, 126, 127, 1.0);
 line-height: 11px;
 }
