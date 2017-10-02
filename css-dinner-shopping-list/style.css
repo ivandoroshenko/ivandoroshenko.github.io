@@ -1,0 +1,71 @@
+*{
+padding: 0;
+font-family: sans-serif;
+color: white;
+transition: all .1s ease-in;
+}
+			
+body{
+background-color: black;
+padding: 0 100px;
+
+		}	
+.wrapper{
+border: 20px solid white;
+background-color: rgba(53, 63, 69, 1.0);
+height: 95%;
+width: auto;
+margin: auto;			
+} 
+
+.dinner__header, .dinner__footer{
+background-color: rgba(74, 79, 86, 1.0);
+height: auto;
+border: 1px solid transparent;
+text-align: center;
+}
+
+.dinner__footer{
+margin-top: 30px;
+margin-bottom: 90px;
+}
+
+.dinner__header__title, .dinner__footer__title{
+color: rgba(235, 126, 127, 1.0);
+line-height: 11px;
+}
+.dinner{
+padding: 10px 100px;
+
+}
+.dinner__list{
+list-style-type: none;
+}
+.dinner__item{
+border: 5px solid transparent;
+}
+
+.dinner__item {
+	border: 5px solid transparent;
+}
+
+.dinner__item:nth-child(odd){
+background-color: rgba(136, 131, 229, 0.1);
+}
+.dinner__item:nth-child(even){
+background-color: rgba(118, 113, 142, 0.1);
+}
+
+.dinner__title {
+	padding: 10px 15px;
+	display: block;
+	font-size: 18px;
+}
+.input_checkbox:checked + .dinner__desc {
+	text-decoration: line-through;
+}
+
+.dinner__item:hover {
+	background-color: rgba(59, 64, 69, 1.0);
+	border-color: white;
+}
