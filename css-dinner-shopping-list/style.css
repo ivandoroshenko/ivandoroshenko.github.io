@@ -7,7 +7,7 @@ transition: all .1s ease-in;
 
 body{
 background-color: black;
-padding: 0 100px;
+// padding: 0 100px;
 
 		}
 .wrapper{
@@ -16,6 +16,9 @@ background-color: rgba(53, 63, 69, 1.0);
 height: 95%;
 width: auto;
 margin: auto;
+margin-top: 50px;
+max-width: 70%;
+min-width: 450px;
 }
 
 .dinner__header, .dinner__footer{
@@ -35,7 +38,9 @@ color: rgba(235, 126, 127, 1.0);
 line-height: 11px;
 }
 .dinner{
+margin: auto;
 padding: 10px 100px;
+min-width: 250px;
 
 }
 .dinner__list{
