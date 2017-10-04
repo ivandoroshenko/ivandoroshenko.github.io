@@ -1,0 +1,36 @@
+/* body {
+    font-size: 16px;
+    font-family: 'Open Sans Regular', sans-serif, Tahoma;
+}
+
+h1{
+    font-weight: normal;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+    h1{
+        font-weight: 300;
+    }
+    .parent{
+        font-size: 2rem;
+        /* 16*2 =32 */
+    }
+    div{
+        font-weight: 300;
+        color: red;
+        font-size: 16px;
+    }
+h1{
+    font-size: 3rem;
+    /* 32*3 = 96px */
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+}
+/*  */
