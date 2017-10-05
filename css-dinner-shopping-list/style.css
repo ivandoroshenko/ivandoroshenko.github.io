@@ -10,12 +10,11 @@ background-color: black;
 }
 
 .wrapper{
+box-sizing: border-box;
 border: 20px solid white;
 background-color: rgba(53, 63, 69, 1.0);
-height: 95%;
 width: auto;
 margin: auto;
-margin-top: 50px;
 max-width: 70%;
 min-width: 450px;
 }
@@ -29,7 +28,7 @@ text-align: center;
 
 .dinner__footer{
 margin-top: 30px;
-margin-bottom: 90px;
+margin-bottom: 60px;
 }
 
 .dinner__menu__title, .dinner__footer__title{
@@ -38,12 +37,13 @@ line-height: 11px;
 }
 .dinner{
 margin: auto;
-padding: 10px 100px;
+padding: 10px;
 min-width: 250px;
 
 }
 .dinner__list{
 list-style-type: none;
+margin:  0 100px;
 }
 .dinner__item{
 border: 5px solid transparent;
@@ -59,7 +59,9 @@ background-color: rgba(136, 131, 229, 0.1);
 .dinner__item:nth-child(even){
 background-color: rgba(118, 113, 142, 0.1);
 }
-
+.dinner__desk{
+	font-size: 18px;
+}
 .dinner__title {
 	padding: 10px 15px;
 	display: block;
