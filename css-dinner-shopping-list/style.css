@@ -6,15 +6,19 @@ transition: all .1s ease-in;
 }
 
 body{
+box-sizing: border-box;
+height: 100%;
+width:  100%;
 background-color: black;
 }
 
 .wrapper{
 box-sizing: border-box;
+margin-top: 100px;
 border: 20px solid white;
 background-color: rgba(53, 63, 69, 1.0);
-width: auto;
-margin: auto;
+width: 100%;
+margin:  auto;
 max-width: 70%;
 min-width: 450px;
 }

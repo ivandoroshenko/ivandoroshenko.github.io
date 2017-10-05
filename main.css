@@ -4,12 +4,16 @@ input[type="button"],
 button{
     text-decoration: none;
 }
+*{
+	margin:  0;
+	padding: 0;
+	border:  1px solid black;
+}
 
 body{
-	box-sizing: border-box;
+	
 	margin: 0;
 	padding: 0;
-	padding-top: 20px;
 	background: #F1F1F1;
 	font-family: Arial, sans-serif;
 
@@ -17,7 +21,7 @@ body{
 .header{
 	margin: 0 auto;
 	position: relative;
-	width:  80%;
+	width:  1070px;
 	}
 .input{
 	box-sizing: border-box;
@@ -68,9 +72,10 @@ body{
 
 }
 .wrapper{
+	box-sizing: border-box;
 	position: relative;
-	width: 80%;
-	margin: 40px auto 0;
+	width: 1070px;
+	margin:  50px auto 0;
 	padding: 0;
 	font-size: 0;
 }
@@ -78,7 +83,8 @@ body{
 .search__column{
 	box-sizing: border-box;
 	display: inline-block;
-	width:  30%;
+	width:  33%;
+	padding:  0 5px;
 	min-width: 275px;
 	font-size: 1rem;
 	vertical-align: top;
@@ -89,17 +95,12 @@ body{
 	text-transform: uppercase;
 	font-size: 18px;
 	letter-spacing: 1px;
+	
 
 }
 
-.search__column{
-	width:  30%;
-	font-size: 10px;
-	display: inline-block;
-}
-
-	.search__column:nth-child(2) {
-	margin:  0 5%;
+.search__column:nth-child(2) {
+	margin:0;
 	}
 
 .search__column:first-child .icon{
@@ -156,7 +157,7 @@ border-radius: 5px;
 	display: block;
 	border-radius: 5px;
 	height: 100%;
-	padding: 12px;
+	padding: 5px;
 	background: #EBEAED;
 }
 .search__item:hover a{
