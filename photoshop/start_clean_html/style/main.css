@@ -1,0 +1,306 @@
+
+/*-- adjustment settings
+============================*/
+
+* {
+	box-sizing: border-box;
+	/* border:  1px solid black; */
+}
+
+
+
+/* input settings */
+/* *::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+} */
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	background: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:  16px;
+}
+
+.maincontent {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	position: relative;
+	margin: 0 auto;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.section{
+	padding-top: 120px;
+}
+
+
+.column-wrap {
+	font-size: 0;
+	width: 100%;
+}
+
+.column {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.column-left: {
+	width: 57%;
+}
+
+.column-right{
+	width: 43%;
+}
+
+/***
+*
+* SECTION-DESCIPTION
+*
+***/
+
+.section-decription{
+		padding-left: 44%;
+	position: relative;
+
+}
+
+.section-description__count{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: 700;
+	color:  rgba(20, 20, 20, .1);
+	font-size: 6.25rem;
+	line-height: 0.9rem;
+}
+
+.section-description__title{
+	margin: 0;
+	font-weight: 900;
+	font-size: 2.375rem;
+	color: #333;
+}
+
+.section-description__text{
+	margin: 33px 0 0 0;
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+	color:  #333;
+}
+
+.section-description__subtext{
+	margin: 60px 0 0 0;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.btn{
+	border:  1px solid #d2d0cc;
+	display: 
+	font-weight: 
+	font-size: 
+	line-height: 
+	
+}
+/***
+*
+* FIRST SECTION
+*
+***/
+
+.first-section {
+	width: 100%;
+	height: 100vh;
+	background: url('../img/img.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.header{
+	padding: 27px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background: -moz-linear-gradient(top, rgba(51,52,51,0.4) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(51,52,51,0.4) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(51,52,51,0.4) 0%,rgba(255,255,255,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=‘#66333433’, endColorstr=‘#00ffffff’,GradientType=0 );
+    }
+
+.logo__link {
+	font-weight: 900;
+	font-size: 1.625rem;
+	color: #fff;
+	background: url('../img/logo.png') left center no-repeat;
+	background-size: 26px;
+	padding-left: 36px;
+}
+
+.column-wrap{
+	vertical-align: 50%;
+	font-size: 0;
+}
+.column--header-left, .column--header-right{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.column--header-right{
+	text-align: right;
+}
+
+/***
+*
+* NAVIGATION
+*
+***/
+.nav{
+	display: inline-block;
+}
+.nav__list{
+	margin:  0;
+	padding: 0;
+	font-size: 0;
+	}
+
+
+.nav__item{ display: inline-block; 
+	margin-left:  35px;
+}
+.nav__item:first-child{
+	margin-left: 0;
+}
+.nav__link{
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-family: Montserrat;
+	letter-spacing: 0.6px;
+	transition: color .2s ease-in-out;
+	position:  relative;
+	display: block;
+	padding:  8px 0;
+	
+}
+.nav__link:before {
+	content:'';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:  0;
+	height: 3px;
+	background: #dbc9b0;
+	transition: width .3s ease-in-out;
+}
+
+
+.nav__link:hover:before{
+	width: 100%;
+}
+.nav__link:hover{
+	color: #dbc9b0;
+}
+
+
+/***
+*
+* SLIDER DESCRIPTION
+*
+***/
+.container--first-section{
+	height: 100vh;
+}
+.slider-desc{
+	max-width: 970px;
+	position: absolute;
+	top: 50%;
+	margin-top: 30px;
+}
+.slider-desc__title{
+	margin: 0;
+	padding: 0;	
+	width: 910px;
+	color: #ffffff;
+	font-size: 2.625rem;
+	font-weight: normal;
+	line-height: 2.3rem;
+}
+
+.slider-desc__title > span{
+	color: #dbc9b0;
+
+}
+
+.slider-desc__text{
+	margin:  0;
+	color: #ffe5e5;
+	font-size: 1.125rem;
+	font-weight: 200;
+	line-height: 1.75rem;
+	width: 445px;
+}
+
+.slider-desc__text >span {
+	color: #ffe5e5;
+	font-weight: 500;
+	
+}
+
+/* 
+*
+*ABOUT
+*
+*
+
+ */
+.about{
+	background: 
+}
+
+.about__btn__wrap{
+	motion-path: 30px;
+}
