@@ -1,0 +1,59 @@
+@import "libs/normalize/normalize";
+@import "libs/fontawesome/font-awesome";
+@import "misc/_mixin.scss";
+@import "misc/_adjustment.scss";
+
+.projects-gallery{
+	margin: 0 -15px 0 -15px;
+}
+.projects-gallery__slide{
+	width: 370px;
+	height: 550px;
+	margin: 0 15px;
+	padding: 0;
+	padding-bottom: 43px;
+	border: 1px solid #e7e7e7;
+	background-color: #ffffff;
+	text-align: center;
+}
+.projects-gallery__card-wrap{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 345/550*100%;
+	background:	url('../../dist/img/Garden store.jpg') 33% top no-repeat;
+	background-size: cover;
+}
+
+.projects-galery__card-caption{
+margin-top: 25px;
+color: rgba(51, 51, 51, .5);
+font-family: "Montserrat - Semi Bold";
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.96px;
+}
+
+.projects-gallery__title{
+margin: 0;
+padding: 0;
+margin: 13px auto 0;
+max-width: 166px;
+color: #333;
+font-family: "Playfair Display";
+font-size: 28px;
+font-weight: 700;
+line-height: 2.375rem;
+}
+.projets-gallery__date-wrap{
+	margin-top: 24px;
+}
+.projects-gallery__date{
+color: rgba(51, 51, 51, .5);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.75rem;
+}
+
