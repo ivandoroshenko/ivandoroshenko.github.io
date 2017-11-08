@@ -1,6 +1,6 @@
 .main-footer__top{
     background: $top-footer-bg;
-    padding: 71px 0 120px 0;
+    padding: 70px 0 88px 0;
     
 }
 
@@ -23,6 +23,7 @@
 }
 
 .main-footer__social{
+    margin-left: 68px;
     .social__list {
         display: flex;
         justify-content: center;
@@ -37,6 +38,10 @@
     .social__link{
         color: #fff;
         }
+    i{
+        font-size: 20px;
+    }
+    
 }
 .main-footer__title-group{
     font-weight: 700;
@@ -56,8 +61,6 @@
 }
 .main-footer__desc-wrap{
     max-width: 330px;
-    
-
     }
 
 .main-footer__desc{
@@ -72,29 +75,41 @@
 }
 .main-footer__bottom{
     background: $bottom-footer-bg;
-}
+    text-align: center;
+    padding: 29px 0;
+   }
+
+.main-footer__bottom-wrap{
+    display: inline-block;
+     max-width: 312px;
+    }
 
 .main-footer__bottom-copyright{
-// Style for "Copyright"
-  color: #808080;
-  font-family: Raleway;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.406rem;
+    margin: 0;
+    padding: 0;
+    color: #808080;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.406rem;
+    text-align: center;
+    
 
-// Text style for ""
-.layer {
-  color: #ffffff;
-  font-family: 'Open Sans';
-  font-size: 13px;
+/* color: #ffffff;
+font-family: 'Open Sans';
+font-size: 0.813rem;
+color: #e84545;
+*/
 }
-// Text style for "Y"
-.y {
-  color: #e84545;
-  font-family: Webdings;
+.main-footer__author{
+    @extend .main-footer__bottom-copyright;
+    i{
+        font-size: 0.813rem;
+        color: #e84545;
+    }
+    &__link{
+        color: #fff;
+        text-decoration: none;
+    }
 }
-// Text style for "by Kamal C"
-.by-kamal-chaneman {
-  color: #ffffff;
-}
-}
+
