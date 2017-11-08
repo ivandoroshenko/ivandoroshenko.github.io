@@ -2945,6 +2945,31 @@ body {
   font-weight: 400;
   line-height: 1.313rem; }
 
+works {
+  background: #ffffff; }
+
+.works-container {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.works__list, .works__item {
+  padding: 0;
+  margin: 0; }
+
+.works__item {
+  list-style: none; }
+
+.works__link {
+  text-decoration: none; }
+
+.works__title {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 .page-btn {
   display: inline-block;
   background: #e84545;
