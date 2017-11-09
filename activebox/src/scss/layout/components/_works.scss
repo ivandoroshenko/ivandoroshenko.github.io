@@ -1,22 +1,67 @@
-works{
-    background: $page-bg;
-}
-
-.works-container{
+.works{
     width: 100%;
-    padding: 0;
-    margin: 0;
+    background: $page-bg;
 }
 
 .works__list{
     padding: 0;
     margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .works__item{
-    @extend .works__list;
+    padding: 0;
+    margin: 0;
     list-style: none;
-  
+    height: 350px;
+    width: 25%;
+    border: 0.5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+    background-size: cover;
+    &--1{
+    background: url('../img/works/works-img-1.jpg') center center no-repeat;
+    }
+    &--2{
+    background: url('../img/works/works-img-2.jpg') center center no-repeat;
+    }
+    &--3{
+    background: url('../img/works/works-img-3.jpg') center center no-repeat;
+    }
+    &--4{
+    background: url('../img/works/works-img-4.jpg') center center no-repeat;
+    }
+    &--5{
+    background: url('../img/works/works-img-5.jpg') center center no-repeat;
+    }
+    &--6{
+    background: url('../img/works/works-img-6.jpg') center center no-repeat;
+    }
+    &--7{
+    background: url('../img/works/works-img-7.jpg') center center no-repeat;
+    }
+    &--8{
+    background: url('../img/works/works-img-8.jpg') center center no-repeat;
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(232, 69, 69, 0.9);
+        display: none;
+    }
+    transition: all .10s ease-in-out;
+    
 }
 
 .works__link{
@@ -24,11 +69,49 @@ works{
 }
 
 .works__title{
+    padding: 0;
+    margin: 0;
     color: #fff;
     font-family: $base-font;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
+    transform: translate(-150%,-170px);
+    z-index: 100;
 }
 
-.works__desc{}
+.works__desc{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: $base-font;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 13px;
+    text-align: center;
+    transform: translate(150%,170px);
+    z-index: 100;
+}
+
+.works__item:hover{
+    background-size: auto 120%;
+    :before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(232, 69, 69, 0.9);
+        display: block;
+    }
+    .works__title{
+    transform: translate(0,0);
+    z-index: 100;
+    }
+.works__desc{
+    transform: translate(0,0);
+    z-index: 100;
+    }
+}
