@@ -1,0 +1,40 @@
+// <section class="team">
+// <div class="team-container">
+     .team__list{
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+        }
+
+    .team__item{
+        display: flex;
+        width: 25%;
+    }
+
+
+//         <li class="team__item">
+//         team__logo-wrap
+//         team__title
+//         team__subtitle
+//         team__text
+
+        .team__social{
+            margin-left: 68px;
+            .social__list {
+                display: flex;
+                justify-content: center;
+            }
+            .social__item{
+                display: flex;
+                text-align: center;
+                flex-flow: column nowrap;
+                border: 2px solid #fff;
+                border-radius: 2px;
+            }
+            .social__link{
+                color: #fff;
+                }
+            i{
+                font-size: 20px;
+            }
+        }
