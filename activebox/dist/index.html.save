@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile specific metas
+    ============================================ -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="css/main.css">
+    <title>Activebox</title>
+</head>
+<body>
+   
+    <div class="maincontent maincontent">
+            <!-- section preview -->
+
+    <section class="preview">
+         <header class="header">
+             <div class="header-container">
+                 <div class="logo"><a href="" class="logo__link"><img src="../dist/img/activebox.png" alt="activebox" class="logo__img"></a></div>
+                 <nav class="nav">
+                     <ul class="nav__list">
+                         <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Works</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Our Team</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Testimonials</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Download</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </header>
+
+    <div class="preview__desc-wrap">
+        <h1 class="preview__title">Your Favorite One Page Multi Purpose Template</h1>
+        <p class="preview__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
+        
+        <div class="preview__btn-wrap">
+            <a href="#" class="page-btn">Find Out More</a>
+        </div>
+    </div>
+</section><!-- preview -->
+
+<!-- features -->
+<section class="features">
+        <div class="features-container">
+            <ul class="features__list">
+                <li class="features__item">
+                    <div class="features__logo"><img src="../dist/img/icons/features-icon-1.png" alt="Easily customized"></div>
+                    <h3 class="features__title">Easily Customised</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__logo"><img src="../dist/img/icons/features-icon-2.png" alt="Responsive REady"></div>
+                    <h3 class="features__title">Responsive REady</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__logo">
+                        <img src="../dist/img/icons/features-icon-3.png" alt="Modern Design">
+                    </div>
+                    <h3 class="features__title">Modern Design</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                        ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__logo"><img src="../dist/img/icons/features-icon-4.png" alt="Clean Code"></div>
+                    <h3 class="features__title">Clean Code</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__logo"><img src="../dist/img/icons/features-icon-5.png" alt="Ready to Ship"></div>
+                    <h3 class="features__title">Ready to Ship</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+
+                <li class="features__item">
+                    <div class="features__logo">
+                        <img src="../dist/img/icons/features-icon-6.png" alt="Download for Free">
+                    </div>
+                    <h3 class="features__title">Download for free</h3>
+                    <p class="features__text">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                        ullamcorper nulla non metus auctor fringilla.
+                    </p>
+                </li>
+            </ul>
+    </div>
+</section><!-- features -->
+
+<!-- works -->
+<section class="works">
+        <ul class="works__list">
+            
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-1.jpg" alt="Our works" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-2.jpg" alt="Our works" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-3.jpg" alt="Our works" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-4.jpg" alt="Our works" class="works__img" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-5.jpg" alt="Our works" class="works__img" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                    <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-6.jpg" alt="Our works" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                <a href="#" class="works__link">
+                    <img src="../dist/img/works/works-img-7.jpg" alt="Our works" class="works__img">
+                    <div class="works__desc-wrap">
+                        <h3 class="works__desc-title">Project Name</h3>
+                        <p class="works__desc-text">User Interface Design</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="works__item">
+                    <a href="#" class="works__link">
+                        <img src="../dist/img/works/works-img-8.jpg" alt="Our works" class="works__img">
+                        <div class="works__desc-wrap">
+                            <h3 class="works__desc-title">Project Name</h3>
+                            <p class="works__desc-text">User Interface Design</p>
+                        </div>
+                    </a>
+                </li>
+
+        </ul>
+/section>
+<!-- ./works -->
+
+<!-- team -->
+<section class="team">
+    <div class="team-container">
+        <ul class="team__list">
+            <li class="team__item">
+<<<<<<< HEAD
+                <div class="team__logo-wrap"><img src="../dist/img/team/team-photo-1.jpg" alt="Logo"></div>
+                 <h3 class="team__title">Ruth Woods</h3>
+                 <h4 class="team__subtitle">Founder, CEO</h4>
+                 <p class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <ul class="social__list">
+                    <li class="social__item ">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item social__item--team">
+                        <a href="#" class="social__link social__link--team">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item ">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+=======
+                    <img src="../dist/img/team/team-photo-1.jpg" alt="Logo">
+                    <h3 class="team__title">Ruth Woods</h3>
+                    <h4 class="team__subtitle">Founder, CEO</h4>
+                    <p class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+             
+>>>>>>> da3bd5e4b60ef1368c34d46002f196fbb09d6e3a
+            </li>
+
+            <li class="team__item">
+                    <img src="../dist/img/team/team-photo-2.jpg" alt="Logo">
+                <h3 class="team__title">Timothy Reed</h3>
+                <h4 class="team__subtitle">Co-Founder, Developer</h4>
+                <p class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+               
+                <address class="social team-social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+            </address>
+            </li>
+
+            <li class="team__item">
+                    <img src="../dist/img/team/team-photo-3.jpg" alt="Logo">
+                <h3 class="team__title">Victoria Valdez</h3>
+                <h4 class="team__subtitle">UI Designer</h4>
+                <p class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="team__item">
+                    <img src="../dist/img/team/team-photo-4.jpg" alt="Logo">
+                <h3 class="team__title">Beverly Little</h3>
+                <h4 class="team__subtitle">Data Scientist</h4>
+                <p class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+
+        
+    </div>
+</section><!-- ./team -->
+
+    <!-- ./main-content -->
+
+    <footer class="main-footer">
+        <div class="main-footer__top">
+            <div class="container footer-container">
+                <div class="main-footer__location">
+                    <h3 class="main-footer__title-group">Location</h3>
+                    <a href="#" class="main-footer__location-link main-footer__context-text">3481 Melrose Place Beverly Hills, CA 90210</a>
+                </div>
+        
+        <address class="main-footer__social social"><!-- social -->
+            <h3 class="main-footer__title-group">Share with love</h3>
+            <ul class="social__list">
+                <li class="social__item"><a href="#" class="social__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="social__item"><a href="#" class="social__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="social__item"><a href="#" class="social__link"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            </ul>
+            
+        </address><!-- social -->
+
+        <!-- footer desc-->
+        <section class="main-footer__desc-wrap">
+            <h3 class="main-footer__title-group">About ActiveBox</h3>
+            <p class="main-footer__desc main-footer__context-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </section><!-- ./footer desc wrap -->
+        </div>
+        </div>
+
+
+        <!-- footer bottom -->
+        <div class="main-footer__bottom">
+            <div class="main-footer__bottom-wrap">
+                <p class="main-footer__bottom-copyright">Copyright &copy; 2015 ActiveBox. All Rights Reserved</p>
+                <p class="main-footer__author">
+                    <span>Made with</span>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <a href="#" class="main-footer__author__link">by Kamal Chaneman</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

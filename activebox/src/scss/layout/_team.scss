@@ -1,0 +1,78 @@
+.team{
+    background: $page-bg;
+}
+.team-container{
+    padding: 100px 0;
+}
+     .team__list{
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+         margin: 0;
+         padding: 0;
+     }
+
+    .team__item{
+        list-style: none;
+        display: flex;
+        width: 25%;
+        margin: 0;
+        padding: 0 15px 0 15px;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+            width: 100%;
+        }
+    }
+//         <li class="team__item">
+//         team__logo-wrap
+         .team__title{
+            margin: 30px 0 0 0;
+            padding: 0;
+            color: #2d3033;
+            font-family: $base-font;
+            font-size: 22px;
+            font-weight: normal;
+            text-transform: capitalize;
+         }
+            .team__subtitle{
+                margin: 10px 0 0 0;
+                padding: 0;
+                color: #e84545;
+                font-family: $base-font;
+                font-size: 0.813rem;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            .team__text{
+                max-width: 276px;
+                padding: 0;
+                margin: 29px 0 0 0;
+                color: #6c7279;
+                font-family: $base-font;
+                font-size: 0.875rem;
+                font-weight: normal;
+                line-height: 1.313rem;
+            }
+
+        .team__social{
+            margin-top: 30px;
+            
+            .social__list {
+                display: flex;
+                justify-content: center;
+            }
+            .social__item{
+                display: flex;
+                text-align: center;
+                flex-flow: column nowrap;
+                border: 1px solid #e8ebee;
+                border-radius: 2px;
+            }
+            .social__link{
+                color: #c6cacc;
+                }
+            i{
+                font-size: 20px;
+            }
+        }
