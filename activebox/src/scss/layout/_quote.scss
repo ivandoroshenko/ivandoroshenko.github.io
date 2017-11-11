@@ -1,30 +1,21 @@
 
 .quote{
     background: #562c4d;
-    &-container{
-        padding: 100px 0;
-    }
-}
-.quote__list{
-    margin: 0;
-    padding: 0;
-    width: 100%;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    
 }
-.quote__item{
-    list-style: none;
-    // width: 50%;
+.quote__column{
+    width: 50%;
 }
-/* .quote__item--image{
+
+.quote__column--left{
     background: url('../img/quote-bg-1.jpg') center center no-repeat;
     background-size: cover;
-} */
-
-.quote__item--text{
-    padding-left: 65px;
 }
+.quote__column--right{
+padding: 120px 0 120px 65px;
+}
+
 .quote__text{
   color: $page-bg;
   max-width: 500px;
@@ -46,7 +37,7 @@
     margin-top: 30px;
 }
 
-.qoute__switch__wrap{
+.quote__switch-wrap{
     margin-top: 64px;
     text-align: center;
 }

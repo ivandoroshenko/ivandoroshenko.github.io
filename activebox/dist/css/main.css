@@ -3320,37 +3320,21 @@ body {
   text-decoration: none; }
 
 .quote {
-  background: #562c4d; }
-  .quote-container {
-    padding: 100px 0; }
-
-.quote__list {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background: #562c4d;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  display: flex; }
 
-.quote__item {
-  list-style: none; }
+.quote__column {
+  width: 50%; }
 
-/* .quote__item--image{
-    background: url('../img/quote-bg-1.jpg') center center no-repeat;
-    background-size: cover;
-} */
-.quote__item--text {
-  padding-left: 65px; }
+.quote__column--left {
+  background: url("../img/quote-bg-1.jpg") center center no-repeat;
+  background-size: cover; }
+
+.quote__column--right {
+  padding: 120px 0 120px 65px; }
 
 .quote__text {
   color: #ffffff;
@@ -3371,6 +3355,6 @@ body {
   text-transform: uppercase;
   margin-top: 30px; }
 
-.qoute__switch__wrap {
+.quote__switch-wrap {
   margin-top: 64px;
   text-align: center; }
